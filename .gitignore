@@ -1,0 +1,12 @@
+# Compiled benchmark/test binaries
+/test
+/bench
+*.o
+*.dSYM/
+
+# Project brief (kept local, not part of the public repo)
+claude.md
+CLAUDE.md
+
+# OS cruft
+.DS_Store

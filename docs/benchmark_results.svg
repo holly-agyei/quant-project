@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350" font-family="SFMono-Regular,Menlo,Consolas,monospace">
+<rect width="760" height="350" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect width="760" height="32" rx="8" fill="#161b22"/>
+<rect y="16" width="760" height="16" fill="#161b22"/>
+<circle cx="18" cy="16" r="5.5" fill="#ff5f56"/>
+<circle cx="36" cy="16" r="5.5" fill="#ffbd2e"/>
+<circle cx="54" cy="16" r="5.5" fill="#27c93f"/>
+<text x="22" y="54" font-size="14"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9" xml:space="preserve"> ./bench</tspan></text>
+<text x="22" y="74" fill="#79c0ff" font-size="14" xml:space="preserve">timer: rdtscp, 0.3858 ns/tick (2.59 GHz)</text>
+<text x="22" y="94" fill="#8b949e" font-size="14" xml:space="preserve">timer overhead subtracted: 9.26 ns</text>
+<text x="22" y="114" fill="#c9d1d9" font-size="14" xml:space="preserve"></text>
+<text x="22" y="134" fill="#8b949e" font-size="14" xml:space="preserve">single thread</text>
+<text x="22" y="154" fill="#79c0ff" font-size="14" xml:space="preserve">  lock-free   p50 29 ns   p99 96 ns   p99.9 329 ns   max 67237 ns   52.4 M/s</text>
+<text x="22" y="174" fill="#79c0ff" font-size="14" xml:space="preserve">  mutex       p50 56 ns                                          19.2 M/s</text>
+<text x="22" y="194" fill="#c9d1d9" font-size="14" xml:space="preserve"></text>
+<text x="22" y="214" fill="#8b949e" font-size="14" xml:space="preserve">8 threads</text>
+<text x="22" y="234" fill="#79c0ff" font-size="14" xml:space="preserve">  lock-free   p50 67 ns   p99 153 ns   53.8 M/s</text>
+<text x="22" y="254" fill="#79c0ff" font-size="14" xml:space="preserve">  mutex       p50 139 ns   p99 39033 ns   2.6 M/s</text>
+<text x="22" y="274" fill="#c9d1d9" font-size="14" xml:space="preserve"></text>
+<text x="22" y="294" fill="#79c0ff" font-size="14" xml:space="preserve">throughput ratio: 2.7x single, 21.1x at 8 threads</text>
+<text x="22" y="314" fill="#c9d1d9" font-size="14" xml:space="preserve">symbol table: 12000 symbols, 562.5 KB</text>
+</svg>

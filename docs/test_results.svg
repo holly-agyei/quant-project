@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="SFMono-Regular,Menlo,Consolas,monospace">
+<rect width="760" height="330" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect width="760" height="32" rx="8" fill="#161b22"/>
+<rect y="16" width="760" height="16" fill="#161b22"/>
+<circle cx="18" cy="16" r="5.5" fill="#ff5f56"/>
+<circle cx="36" cy="16" r="5.5" fill="#ffbd2e"/>
+<circle cx="54" cy="16" r="5.5" fill="#27c93f"/>
+<text x="22" y="54" font-size="14"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9" xml:space="preserve"> ./test</tspan></text>
+<text x="22" y="74" fill="#c9d1d9" font-size="14" xml:space="preserve">basic accept/reject</text>
+<text x="22" y="94" fill="#c9d1d9" font-size="14" xml:space="preserve">boundary cases</text>
+<text x="22" y="114" fill="#3fb950" font-size="14" xml:space="preserve">  660 cases, ok</text>
+<text x="22" y="134" fill="#c9d1d9" font-size="14" xml:space="preserve">overflow handling</text>
+<text x="22" y="154" fill="#c9d1d9" font-size="14" xml:space="preserve">  ok</text>
+<text x="22" y="174" fill="#c9d1d9" font-size="14" xml:space="preserve">fail-closed</text>
+<text x="22" y="194" fill="#c9d1d9" font-size="14" xml:space="preserve">  ok</text>
+<text x="22" y="214" fill="#c9d1d9" font-size="14" xml:space="preserve">concurrency</text>
+<text x="22" y="234" fill="#3fb950" font-size="14" xml:space="preserve">  12000000 ops, 12000000 accepted, 0 mismatches</text>
+<text x="22" y="254" fill="#c9d1d9" font-size="14" xml:space="preserve"></text>
+<text x="22" y="274" fill="#c9d1d9" font-size="14" xml:space="preserve">675 assertions, 0 failed</text>
+<text x="22" y="294" fill="#3fb950" font-size="14" xml:space="preserve">all tests passed (660 boundary cases, 12000000 concurrent ops)</text>
+</svg>
